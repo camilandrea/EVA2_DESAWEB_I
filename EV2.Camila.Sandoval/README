@@ -1,0 +1,15 @@
+El front-end tiene disponbiles los servicios de 
+    1. Inicio de Sesión
+    2. Registro
+Tal y como indica el documento
+Para probar proyectos debe hacerlo mediante postman el front entregara el token de JWT 
+Headers:
+Authorization   | Bearer {Token}
+Body RAW para test:
+{
+    "nombre": "Proyecto B",
+    "fecha_inicio": "2025-11-01",
+    "estado": "Terminado",
+    "responsable": "Juan Perez",
+    "monto": 10000
+}
